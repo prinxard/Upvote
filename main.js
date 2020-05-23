@@ -18,7 +18,6 @@ const submissionComponent = {
             <strong class="text-primary"></strong>{{submission.votes}}</strong>
         </span>
     </div>
-    prinxard 2020
 </div>
 `,
   props: ["submission", "submissions"],
