@@ -13,7 +13,7 @@ const submissionComponent = {
        
     </div>
     <div class="float-right">
-        <span class="icon" v-on:click="upvote(submission.id)">
+        <span class="icon" @click="upvote(submission.id)">
             <i class="fa fa-chevron-up"></i>
             <strong class="text-primary"></strong>{{submission.votes}}</strong>
         </span>
